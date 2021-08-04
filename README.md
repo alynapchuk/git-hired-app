@@ -15,7 +15,7 @@
   <h3 align="center">GitHired</h3>
 
   <p align="center">
-    Summary of project/repository.
+    GitHired takes the long and drawn out days of searching for your perfect development career and does all the hard work for you. The home page features the most recent job listings from the FindWork Jobs API, and has a search feature where the user can filter through job postings by keywords (such as python, react, chai, etc.), location, and/or remote work to narrow down and simplify the job hunt.
     <br />
     <br />
     <a href="https://github.com/alynapchuk/git-hired-app/issues">Report Bug or Request Feature</a>
@@ -56,20 +56,20 @@
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 <u>Key Focuses</u>
-* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-* Habitant morbi tristique senectus et netus et malesuada.
-* Ipsum a arcu cursus vitae congue mauris rhoncus aenean. Auctor elit sed vulputate mi sit.
+* Implement the FindWork Jobs API to map through current job postings and filter through parameters.
+* Display the job postings and details in a clear and concise way to improve user functionality.
+* Provide direct links to the jobs which users would like to apply to.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Ideally in the future I would like to also include the Google Maps API to autocomplete the location input, and possibly include a resources component with helpful links and articles related to software development roles.
 
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 ### Built With
 
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [React](https://reactjs.org/)
+* [Node.js](https://nodejs.org/en/)
+* [Express](https://expressjs.com/)
 
 
 
@@ -80,7 +80,7 @@ This is how you may set up this project locally. To get a local copy up and runn
 
 ### Prerequisites
 
-Get a free API Key at [https://example.com](https://example.com)
+Get a free API Key at [FindWork Jobs API](https://findwork.dev/developers/)
 
 Install npm
 
@@ -102,10 +102,14 @@ Install NPM packages
    npm install
    ```
    
-Enter your API in `config.js`
+Enter your API in `proxy.js`
 
    ```JS
-   const API_KEY = 'ENTER YOUR API';
+   const API_KEY = fetch("https://findwork.dev/api/jobs/", {
+  headers: {
+    Authorization: "Token xxxx"
+  }
+});
    ```
 
 
