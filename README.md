@@ -12,7 +12,8 @@
     <img src="git-hired-client/public/images/githiredlogo.png" alt="Logo" width="50%">
   </a>
 
-  <h3 align="center">GitHired - Git the developer job you really want.</h3>
+  <h3 align="center">GitHired</h3>
+  <h4 align="center">Git the developer job you really want.</h4>
 
   <p align="center">
     GitHired takes the long and drawn out days of searching for your perfect development career and does all the hard work for you. The home page features the most recent job listings from the FindWork Jobs API, and has a search feature where the user can filter through job postings by keywords (such as python, react, chai, etc.), location, and/or remote work to narrow down and simplify the job hunt.
