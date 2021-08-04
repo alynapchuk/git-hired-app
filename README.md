@@ -18,7 +18,7 @@
     Summary of project/repository.
     <br />
     <br />
-    <a href="https://github.com/alynapchuk/git-hired/issues">Report Bug or Request Feature</a>
+    <a href="https://github.com/alynapchuk/git-hired-app/issues">Report Bug or Request Feature</a>
   </p>
 </p>
 
@@ -93,7 +93,7 @@ Install npm
 Clone the Repository
 
    ```sh
-   git clone https://github.com/alynapchuk/git-hired.git
+   git clone https://github.com/alynapchuk/git-hired-app.git
    ```
    
 Install NPM packages
@@ -112,7 +112,7 @@ Enter your API in `config.js`
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/alynapchuk/git-hired/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/alynapchuk/git-hired-app/issues) for a list of proposed features (and known issues).
 
 
 
@@ -144,16 +144,16 @@ Alyna Palamarchuk - [Portfolio](https://alynapchuk.com) - [Twitter](https://twit
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/alynapchuk/git-hired?color=219ebc&style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/alynapchuk/git-hired-app?color=219ebc&style=for-the-badge
 [contributors-url]: #
 
-[languages-shield]: https://img.shields.io/github/languages/count/alynapchuk/git-hired?color=90ab60&style=for-the-badge
+[languages-shield]: https://img.shields.io/github/languages/count/alynapchuk/git-hired-app?color=90ab60&style=for-the-badge
 [languages-url]: #
 
-[forks-shield]: https://img.shields.io/github/forks/alynapchuk/git-hired?color=f5af00&style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/alynapchuk/git-hired-app?color=f5af00&style=for-the-badge
 [forks-url]: #
 
-[issues-shield]: https://img.shields.io/bitbucket/issues-raw/alynapchuk/git-hired?style=for-the-badge
+[issues-shield]: https://img.shields.io/bitbucket/issues-raw/alynapchuk/git-hired-app?style=for-the-badge
 [issues-url]: #
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
