@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="git-hired-client/public/images/githiredlogo.png" alt="Logo" width="80" height="80">
+    <img src="git-hired-client/public/images/githiredlogo.png" alt="Logo" width="80">
   </a>
 
   <h3 align="center">GitHired</h3>
