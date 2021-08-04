@@ -12,6 +12,9 @@ const App = () => {
                     <Link to='/searchjobs'>Search</Link>
                 </nav>
             </div>
+            <div>
+                <img src='images/githiredlogo.png' alt='GIThired' />
+            </div>
             <Switch>
                 <Route exact path='/'><Home /></Route>
                 <Route path='/searchjobs'><SearchJobs /></Route>

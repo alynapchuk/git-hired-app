@@ -26,10 +26,7 @@ class Home extends Component {
     render() {
         return (
             <>
-
-                <><h1>GitHired</h1>
-                    <h2>Git the developer job you really want.</h2></>
-
+                <h2>Git the developer job you really want.</h2>
                 <JobList jobs={this.state.jobs} />
             </>
         )
