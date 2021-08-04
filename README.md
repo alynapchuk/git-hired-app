@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO & HEADER -->
 <br />
 <p align="center">
-  <a href="#">
+  <a href="http://www.githiredapp.netlify.app">
     <img src="git-hired-client/public/images/githiredlogo.png" alt="Logo" width="50%">
   </a>
 
