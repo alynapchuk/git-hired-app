@@ -27,6 +27,7 @@ class Home extends Component {
         return (
             <>
                 <h2>Git the developer job you really want.</h2>
+
                 <JobList jobs={this.state.jobs} />
             </>
         )
