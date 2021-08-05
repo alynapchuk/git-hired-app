@@ -77,7 +77,7 @@ Ideally in the future I would like to also include the Google Maps API to autoco
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is how you may set up this project locally. To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
