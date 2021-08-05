@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="http://www.githiredapp.netlify.app">
-    <img src="git-hired-client/public/images/githiredlogo.png" alt="Logo" width="50%">
+    <img src="git-hired-client/public/githiredlogo.png" alt="Logo" width="50%">
   </a>
 
   <h3 align="center">GitHired</h3>
