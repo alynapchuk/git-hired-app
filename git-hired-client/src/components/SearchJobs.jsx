@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import JobList from './JobList';
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class SearchJobs extends Component {
 
@@ -49,19 +52,33 @@ class SearchJobs extends Component {
     render() {
         return (
             <>
-                <h2>Search Current Job Listings</h2>
+                <div className="header-bg-img">
+                    <div className="header-inner">
+                        <img className='gitHiredLogo' src='githiredlogo.png' alt='GIThired' />
+                        <h1 className='headerText'>Search Current Job Listings</h1>
+                    </div>
+                </div>
 
-                <form onSubmit={this.handleSumbit}>
+                <Form onSubmit={this.handleSumbit}>
 
-                    <input type='text' placeholder='Search by Keywords' onChange={this.handleKeyChange} />
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Control type="text" placeholder="Search by Keywords" onChange={this.handleKeyChange} />
+                    </Form.Group>
 
-                    <input type='text' placeholder='Search by Location' onChange={this.handleLocationChange} />
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Control type="text" placeholder="Search by Location" onChange={this.handleLocationChange} />
+                    </Form.Group>
 
-                    <br />
-                    <input type="checkbox" name="remote" onChange={this.handleRemoteChange} /><label for="remote">Remote?</label>
-                    <br />
-                    <button type='submit'>Submit</button>
-                </form>
+                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                        <Form.Check type="checkbox" name="remote" onChange={this.handleRemoteChange} label="Remote Work Only" />
+                    </Form.Group>
+
+                    <Button variant="primary" type="submit">
+                        Search
+                    </Button>
+
+                </Form>
+
                 <JobList jobs={this.state.jobs} />
             </>
         )

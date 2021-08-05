@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import { Nav } from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import SearchJobs from './components/SearchJobs';
@@ -14,24 +16,25 @@ import './App.css';
 const App = () => {
     return (
         <Router>
+            <Navbar fixed="bottom" className="custNavbar">
 
-            <Nav justify variant="tabs">
-                <Nav.Item><LinkContainer to='/home'>
-                    <Nav.Link>Home</Nav.Link>
-                </LinkContainer></Nav.Item>
+                <LinkContainer to='/home'>
+                    <Navbar.Brand><img src="/house-door.svg" /></Navbar.Brand>
+                </LinkContainer>
 
-                <Nav.Item><LinkContainer to='/searchjobs'>
-                    <Nav.Link>Search</Nav.Link>
-                </LinkContainer></Nav.Item>
-            </Nav>
+                <LinkContainer to='/searchjobs'>
+                    <Navbar.Brand><img src="/search.svg" /></Navbar.Brand>
+                </LinkContainer>
 
+                <LinkContainer to='/resources'>
+                    <Navbar.Brand><img src="/book.svg" /></Navbar.Brand>
+                </LinkContainer>
 
-            <div className="header-bg-img">
-                <div className="header-inner">
-                    <img src='images/githiredlogo.png' alt='GIThired' />
-                </div>
-            </div>
+                <LinkContainer to='/user'>
+                    <Navbar.Brand><img src="/user.svg" /></Navbar.Brand>
+                </LinkContainer>
 
+            </Navbar>
 
             <Switch>
                 <Route exact path='/home'><Home /></Route>
