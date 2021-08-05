@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import JobList from "./JobList";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Home extends Component {
 
@@ -23,11 +24,19 @@ class Home extends Component {
         this.fetchJobs();
     }
 
+
     render() {
         return (
             <>
-                <h2>Git the developer job you really want.</h2>
+                <div className="header-bg-img">
+                    <div className="header-inner">
+                        <img className='gitHiredLogo' src='githiredlogo.png' alt='GIThired' />
+                        <h1 className='headerText'>Git the developer job you really want.</h1>
+                    </div>
+                </div>
+
                 <JobList jobs={this.state.jobs} />
+
             </>
         )
     };
