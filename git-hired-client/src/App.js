@@ -1,12 +1,11 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
 import { LinkContainer } from 'react-router-bootstrap';
 
-import SearchJobs from './components/SearchJobs';
 import Home from './components/Home';
+import SearchJobs from './components/SearchJobs';
+import Profile from './components/Profile'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -18,7 +17,7 @@ const App = () => {
         <Router>
             <Navbar fixed="bottom" className="custNavbar">
 
-                <LinkContainer to='/home'>
+                <LinkContainer to='/'>
                     <Navbar.Brand><img src="/house-door.svg" /></Navbar.Brand>
                 </LinkContainer>
 
@@ -30,15 +29,16 @@ const App = () => {
                     <Navbar.Brand><img src="/book.svg" /></Navbar.Brand>
                 </LinkContainer>
 
-                <LinkContainer to='/user'>
+                <LinkContainer to='/profile'>
                     <Navbar.Brand><img src="/user.svg" /></Navbar.Brand>
                 </LinkContainer>
 
             </Navbar>
 
             <Switch>
-                <Route exact path='/home'><Home /></Route>
+                <Route exact path='/'><Home /></Route>
                 <Route path='/searchjobs'><SearchJobs /></Route>
+                <Route path='/profile'><Profile /></Route>
             </Switch>
         </Router>
     )
