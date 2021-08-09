@@ -1,49 +1,60 @@
-.custNavbar {
-    background-color: #ffbd59;
-    display: flex;
-    justify-content: space-around;
-
+h3 {
+  color: #545454;
 }
 
 .header-bg-img {
-    background-image: url(https://images.unsplash.com/photo-1580894908361-967195033215?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1580894908361-967195033215?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 25px;
 }
 
 .header-inner {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    background-color: rgb(255, 255, 255, 0.6);
-}
-
-.gitHiredLogo {
-width: 40%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .headerText {
-    text-align: center;
-    color: white;
-    background-color: rgb(84, 84, 84, 0.8);
-    padding: 10px;
-    width: 40%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 80px;
+  padding: 20px;
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.custList {
+  text-align: center;
+  border-radius: 0%;
+}
+
+.list-image {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .custCard {
-    margin: 15px;
-    border-radius: 0%;
+  width: 45%;
+  border-radius: 0%;
+  margin-bottom: 20px;
+}
+
+.custCol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .custButton {
-    background-color: #ff914d;
-    border: #ff914d;
-    border-radius: 0%;
+  background-color: #ff914d;
+  border: #ff914d;
+  border-radius: 0%;
+  margin: 5px;
 }
 
 .custButton:hover {
-    background-color: #ffbd59;
-    border: #ffbd59;
-    border-radius: 0%;
+  background-color: #ffbd59;
+  border: #ffbd59;
+  border-radius: 0%;
 }
