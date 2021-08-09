@@ -7,6 +7,7 @@ function JobList(props) {
             <Job
                 key={index}
                 job={job}
+                logo={job.logo}
                 role={job.role}
                 company={job.company_name}
                 keywords={job.keywords}
