@@ -9,14 +9,14 @@
 <br />
 <p align="center">
   <a href="http://www.githiredapp.netlify.app">
-    <img src="git-hired-client/public/images/githiredlogo.png" alt="Logo" width="50%">
+    <img src="git-hired-client/public/githiredlogo.png" alt="Logo" width="50%">
   </a>
 
   <h3 align="center">GitHired</h3>
   <h4 align="center">Git the developer job you really want.</h4>
 
   <p align="center">
-    GitHired takes the long and drawn out days of searching for your perfect development career and does all the hard work for you. The home page features the most recent job listings from the FindWork Jobs API, and has a search feature where the user can filter through job postings by keywords (such as python, react, chai, etc.), location, and/or remote work to narrow down and simplify the job hunt.
+    GitHired takes the long and drawn out days of searching for your perfect development career and does all the hard work for you.
     <br />
     <br />
     <a href="https://github.com/alynapchuk/git-hired-app/issues">Report Bug or Request Feature</a>
@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The home page features the most recent job listings from the FindWork Jobs API, and has a search feature where the user can filter through job postings by keywords (such as python, react, chai, etc.), location, and/or remote work to narrow down and simplify the job hunt. Users also have the option to log in or sign up, implemented through Auth0.
 
 <u>Key Focuses</u>
 * Implement the FindWork Jobs API to map through current job postings and filter through parameters.
@@ -77,7 +77,7 @@ Ideally in the future I would like to also include the Google Maps API to autoco
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is how you may set up this project locally. To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
