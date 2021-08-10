@@ -1,3 +1,7 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h3 {
   color: #545454;
 }
@@ -47,6 +51,7 @@ h3 {
 }
 
 .custButton {
+  color: #fff;
   background-color: #ff914d;
   border: #ff914d;
   border-radius: 0%;
@@ -54,6 +59,13 @@ h3 {
 }
 
 .custButton:hover {
+  color: #fff;
+  background-color: #ffbd59;
+  border: #ffbd59;
+  border-radius: 0%;
+}
+
+.custButton::after {
   background-color: #ffbd59;
   border: #ffbd59;
   border-radius: 0%;

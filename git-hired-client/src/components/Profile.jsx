@@ -3,9 +3,14 @@ import User from './User';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { useAuth0 } from '@auth0/auth0-react';
 
 
 function Profile() {
+
+    const { isLoading } = useAuth0();
+
+    if (isLoading) return <div>Loading...</div>
 
     return (
         <>
@@ -15,7 +20,7 @@ function Profile() {
                     <div className="header-inner">
                         <div className='headerText'>
                             <h1>Favorited Job Listings</h1>
-                            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, nulla quae. Magnam autem repudiandae, in minus voluptatem atque placeat sequi.</h3></div>
+                            <h3>Keep track of all the jobs which you have applied to or save any favorites you may be interested in, all in one place.</h3></div>
                     </div>
                 </div>
                 <Row>

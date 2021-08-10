@@ -9,6 +9,7 @@ function JobList(props) {
                 job={job}
                 logo={job.logo}
                 role={job.role}
+                text={job.text}
                 company={job.company_name}
                 keywords={job.keywords}
                 url={job.url}
