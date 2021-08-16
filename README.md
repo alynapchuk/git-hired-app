@@ -136,7 +136,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- CONTACT -->
 ## Contact
-Alyna Palamarchuk - [Portfolio](https://alynapchuk.com) - [Twitter](https://twitter.com/alynapchuk) - alynapchuk@gmail.com
+Alyna Palamarchuk - [Portfolio](https://alynapchuk.com) - alynapchuk@gmail.com
 
 
 
