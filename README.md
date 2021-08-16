@@ -64,7 +64,7 @@ The home page features the most recent job listings from the FindWork Jobs API, 
 Ideally in the future I would like to also include the Google Maps API to autocomplete the location input, and possibly include a resources component with helpful links and articles related to software development roles.
 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot]
 
 ### Built With
 
@@ -150,7 +150,7 @@ Alyna Palamarchuk - [Portfolio](https://alynapchuk.com) - [Twitter](https://twit
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/alynapchuk/git-hired-app?color=219ebc&style=for-the-badge
-[contributors-url]: #
+[contributors-url]: https://github.com/alynapchuk/git-hired-app/graphs/contributors
 
 [languages-shield]: https://img.shields.io/github/languages/count/alynapchuk/git-hired-app?color=90ab60&style=for-the-badge
 [languages-url]: #
